@@ -1,0 +1,48 @@
+<link rel="stylesheet" type="text/css" href="index.css">
+    <ul class="ul">
+        <li class="titleBar"><a href="index.html">Home</a></li>
+        <li class="titleBar"><a href="tor-links.html">Tor-Links</a></li>
+        <li class="titleBar"><a href="freenet-links.html">Freenet-Links</a></li>
+        <li class="titleBar"><a href="software-links.html">Software-Links</a></li>
+        <li class="titleBar"><a href="os-image-downloads.html">OS-Image-Links</a></li>
+        <li class="titleBar"><a href="about.html">Contact</a></li>
+        <li class="titleBar"><a href="youtube.html">Youtube</a></li>
+    </ul>
+    <br />
+    <ol class="title">
+        <li><a href="BrokenInternet[0].html">FixedInternet[1] = "LAN  Local Vulnerabilities"</a></li>
+    
+    </ol>
+    <p>
+Okay so if you haven't yet read the BrokenInternet[1] post, you should probably read that first, to better understand this post.
+
+As we have seen, there are many vulnerabilities with our default local LAN protocols. And I will discuss a few solutions:
+</p>
+<h4>IPSec</h4>
+<p>
+The first tool I want to discuss is IPSec. As we know, our traffic can often be rerouted, or listen upon, as it is authenticated solely by MAC addresses, and has no encryption. IPSec, allows you to configure your firewall to have direct connections with other devices on LAN which encrypt the traffic using public-key cryptography and symmetric key algorithms, which means if one tries to reroute the traffic, the user will have unaffected access, as everything he does, is encrypted.
+</p>
+<h4>Routers</h4>
+<p>
+Okay here is a checklist that you should do:
+</p>
+<ol>
+    <li>change the default admin password for your router, and store it somewhere safe, never disclose this information</li>
+    <li>Update your router's firmware</li>
+    <li>disable PIN sharing</li>
+    <li>Turn on the firewall if it isn't already on</li>
+    <li>Set an alarm with google alerts, to alert you if vulnerabilities exist for your router, and upon hearing such vulnerabilities, automatically update</li>
+    <li>Make a separate guest network so that anyone who doesn't live at your home or office, doesn't use the same network that you do, protecting yourself by never revealing your wifi password.</li>
+</ol>
+
+<h4>Computers</h4>
+<p>
+Enable your firewall on your device. And always update software and the OS.
+</p>
+
+<h4>Other Alternatives</h4>
+<p>
+As I said, in the BrokenInternet[] series, This series will also focus on alternatives to our current internet, but these alternatives will be discussed later in the series, I'm writing this now, because some have a direct impact on LAN vulnerabilities, namely mesh-nets, but this will be discussed further later.
+
+Thank you for reading, and stay safe on the internet.
+</p>

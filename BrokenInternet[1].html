@@ -1,0 +1,93 @@
+<link rel="stylesheet" type="text/css" href="index.css">
+    <ul class="ul">
+        <li class="titleBar"><a href="index.html">Home</a></li>
+        <li class="titleBar"><a href="tor-links.html">Tor-Links</a></li>
+        <li class="titleBar"><a href="freenet-links.html">Freenet-Links</a></li>
+        <li class="titleBar"><a href="software-links.html">Software-Links</a></li>
+        <li class="titleBar"><a href="os-image-downloads.html">OS-Image-Links</a></li>
+        <li class="titleBar"><a href="about.html">Contact</a></li>
+        <li class="titleBar"><a href="youtube.html">Youtube</a></li>
+    </ul>
+    <br />
+    <ol class="title">
+        <li><a href="BrokenInternet[0].html">BrokenInternet[1] = "LAN & Local Vulnerabilities"</a></li>
+    </ol>
+    <p>
+Routers, Modems, Switches, and Access Points, are all terms we use to describe the device we all use to connect to the internet, now obviously, each of these terms, has a meaning of it's own and is a dedicated device, but modern routers, perform the job of all of these devices combined, and are loaded with vulnerabilities, unlike the internet beyond the LAN network, this one is crude, easy to penetrate, and could be considered ancient technology.
+</p>
+<h2>Router Software Vulnerabilities</h2>
+<p>
+The first problem, is that routers have an OS, which is miles from being as secure as our modern day computer OS such as windows, macOS, Linux, Android, or iOS. Router Firmware is based on linux, but has many features removed and is a bare-bone, old, full of vulnerabilities, pile of junk.
+</p>
+<h4>Users</h4>
+<p>
+Most users of routers have
+</p>
+<ol>
+    <li> no idea how to configure it,</li>
+    <li> Don't know the dangers of LAN networks,</li>
+    <li> Never update their router firmware,</li>
+    <li> have crappy passwords for wireless, and finally</li>
+    <li> don't bother to change the admin default password for their router.</li>
+</ol>
+<p>
+1:
+And this is a huge problem, by not configuring the router properly, they may leave open doors in the router for hackers to access, and have no firewall enabled to protect against these attacks.</p>
+<br />
+<br />
+<p>
+2:
+Without knowing what the attacker can do, they don't take the necessary precautions, such as turning your router off when no one is using it, having a separate guest network to never have to reveal you wireless password, or leaving their router exposed through a window.
+</p>
+<br />
+<br />
+<p>
+3:
+Now be honest and ask yourself exactly when was the last time you updated the firmware on your router? That's right: NEVER. By not updating your router, which when you buy it is already running 3 year old software, by the time an attacker comes, 10 vulnerabilities have already been discovered for your router firmware, and although patches exist, since you don't update it, these vulnerabilities keep piling up.
+</p>
+<br />
+<br />
+<p>
+4:
+When users have bad passwords, or they share them thoughtlessly, the password serves absolutely no purpose, the attacker can guess it by running a list of a billion common passwords in a matter of 2 - 3 hours.
+</p>
+<br />
+<br />
+<p>
+5:
+This is by far the dummest problem, which is that your router comes with a default password to change it's settings, and thousands of people never change the default password resulting in easy access for the hacker, since he just has to google <code>Default password for Tp-Link 2750</code> to get what he wants.
+</p>
+<h4>Firmware Issues</h4>
+<p>
+Now let's say you are part of the vast majority of people that don't update their firmware, here are the problems you face:
+</p>
+<ol>
+    <li>DNS setting changes</li>
+    <li>Firewall Changes</li>
+    <li>password changes</li>
+    <li>bandwidth changes</li>
+</ol>
+<p>
+DNS changes:
+By changing the DNS (Domain Name Service) settings, a hacker can change what website you are routed to when you type a url, for example, if he knows you use a fictional bank named theBestBank, with a website url of thebestbank.com, he can then change the DNS, so that when you type thebestbank.com, into your browser, it actually goes to a clone of the website, where your username and password are sent to the hacker.<br />Firewall Changes:
+By changing firewall settings, hackers can then attack your computers directly without even needing to connect to your network, which allows them to hide while hacking you.<br />Password Changes:
+They can change your password, and lock you out, keeping your internet connection to themselves.<br />Bandwidth Changes:
+By changing some settings they can use your router as a proxy to enable them to attack others without being traced back to them, and can use your bandwidth for their own use (which slows down your internet connection), such as mining cryptocurrencies.
+</p>
+<h2>LAN Protocol Vulnerabilities</h2>
+<p>
+Unlike the refined secure system which is the internet outer internet (although of course there are security problems with it otherwise this series wouldn't exist, however it is much more secure compared to LAN networks), our LAN networks have benefitted from a simple protocol, which absolutely sucks at keeping your internet traffic safe.
+</p>
+<h4>MAC Addresses</h4>
+<p>
+When you connect to the internet websites use your ip address to identify you, however on LAN, your ip address changes often, and can be assigned to any device, so instead routers, and other wireless devices identify you using a unique identifier that your network card has called a MAC address, an example of a MAC address is the following:
+<code>84-FF-68-18-CC-33</code><br />Every network card manufactured has a unique MAC Address, and in theory there are 281,474,976,710,656 possible MAC Addresses, so we're far from not having enough unique addresses, just randomly generating one will almost certainly be a unique address. Here is the problem, when identifying you, a router won't go and physically check what MAC address you have, your network card is broadcasting it. And this means that with the right tools, I can technically broadcast any MAC address, effectively impersonating someone on the network.<br />This is often used for MITM attacks (Man In The Middle), in order to get usernames and passwords.
+</p>
+<h4>Firewall</h4>
+<p>
+Unlike Linux which has a firewall enabled by default on most distributions, macOS and Windows do not.<br />A firewall is a program that acts as a barrier for any incoming or outgoing connections and messages, and it does this by opening ports, or closing them or limiting what and who can pass through said ports, in order to control everything that goes in and out of the computer. It is a lot like customs in countries, that regulate what and who enters and exits the country.<br />Routers have firewalls by default, but if your router is compromised, then no firewall is protecting you, so it is important to have firewalls enabled and configured on machines.
+</p>
+<h2>Conclusion</h2>
+<p>
+Many people don't know about all this, and many reactions they get are: Anger because they should have been told this, Fear because they no longer think they are scared, or desperation, because they think nothing can be done.<br />Well I have a solution for all these people, by following this series, people will be told what problems exist with the internet, and with my second series that I'm announcing today called FixedInternet[], people will learn how to protect themselves with current technology, and what alternatives exist to fulfil these gaps in security, and the latest technology in the field.<br />Today FixedInternet[0] = "Introduction" is posted, come back tomorrow for FixedInternet[1] = "LAN & Local Vulnerabilities", the next post will be BrokenInternet[2] = "Browsers".
+</p>

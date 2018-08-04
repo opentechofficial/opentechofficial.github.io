@@ -1,0 +1,6 @@
+BrokenInternet[0]
+BrokenInternet[1]
+BrokenInternet[2]
+FixedInternet[0]
+FixedInternet[1]
+FixedInternet[2]

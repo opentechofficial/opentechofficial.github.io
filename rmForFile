@@ -1,0 +1,3 @@
+for f in $(cat file.txt) ; do
+  touch "$f.html"
+done
