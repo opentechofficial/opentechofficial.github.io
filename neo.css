@@ -1,0 +1,148 @@
+* {
+
+    enable-background: true;
+    background-color: white;
+    color: rgb(35, 35, 35);
+    font-family: Menlo;
+    font-size: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 115px;
+    margin-left: 115px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: uppercase;
+}
+h4 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+
+}
+.ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+
+
+    text-transform: uppercase;
+    border-width: 1px;
+}
+
+.input {
+    padding: 8px 16px;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 0px;
+    border: solid;
+    border-width: 1px;
+}
+
+.input:hover {
+    background-color: #CCC;
+}
+
+.titleBar {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+
+
+}
+a {
+
+    color: rgb(35, 35, 35);
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+
+}
+
+.link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 115px;
+    margin-left: 115px;
+}
+
+a:hover {
+    background-color: #CCC;
+    color: rgb(35, 35, 35);
+
+
+}
+
+.active {
+    background-color: white;
+}
+
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.line {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+code {
+    font-family: Monaco;
+    background-color: #222222;
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+.title {
+    padding: 20px;
+    font-family: Menlo;
+    list-style-type: none;
+    display: block;
+    text-transform: none;
+    font-size: 20px;
+
+}
+
+img {
+    background-color: white;
+}
