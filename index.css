@@ -123,7 +123,7 @@ ol {
 
 code {
     font-family: Monaco;
-    background-color: #222222;
+    background-color: black;
     display: block;
     font-size: 15px;
     padding-top: 10px;
@@ -131,7 +131,8 @@ code {
     padding-right: 20px;
     padding-left: 20px;
     text-align: left;
-    
+    color: white;
+
 }
 
 .title {
