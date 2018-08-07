@@ -1,0 +1,20 @@
+<link rel="stylesheet" type="text/css" href="neo.css">
+<ul class="ul">
+    <li class="titleBar"><a href="../index.html">OpenTech</a></li>
+    <li class="titleBar"><a href="../Neo OS.html">Neo</a></li>
+</ul>
+<br />
+<br />
+<h1>Neo OS</h1>
+
+<h3>AppLang</h3>
+<p>
+AppLang is used to make a GuiLang window interactive, for example, by referencing buttons, and executing code when a button is
+pressed. Something to note though is that unlike most programming languages, AppLang doesn't execute anything, it sends messages
+to Neo OS's message bus which then get executed by the OS. This means that if an app is locked, none of this code can get
+executed it also means that there will be no errors, as if it doesn't execute, then nothing will happen, this also means that
+if the app needs to do something potentially dangerous, instead of directly asking the user for root permissions, and potentially
+displaying misinformation to trick the user into putting his password, in order for the app do do something bad, tha app simply
+says what it wants to do, and the OS, displays a window for the user to put in a password that tells the user exactly what the app
+wants to do.
+</p>
